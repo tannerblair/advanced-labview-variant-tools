@@ -44,11 +44,11 @@
 				<Property Name="Source[0].itemID" Type="Str">{9AEDDE84-ED84-4709-8289-394382C71DEA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
+				<Property Name="Source[2].itemID" Type="Ref">/</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
