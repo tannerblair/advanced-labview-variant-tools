@@ -14,7 +14,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Advanced Variant Tools.lvlib" Type="Library" URL="../Advanced Variant Tools.lvlib"/>
-		<Item Name="example.vi" Type="VI" URL="../../example.vi"/>
+		<Item Name="test.vi" Type="VI" URL="../../test.vi"/>
+		<Item Name="Control Style.ctl" Type="VI" URL="../Control Scripting/Control Style.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>

@@ -13,79 +13,80 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Set Value Options.vi" Type="VI" URL="../Control Scripting/Set Value Options.vi"/>
 			<Item Name="Create Control Helper.vi" Type="VI" URL="../Control Scripting/Create Control Helper.vi"/>
+			<Item Name="Check Elements are Same Type.vi" Type="VI" URL="../Control Scripting/Check Elements are Same Type.vi"/>
 		</Item>
 		<Item Name="Control Population Settings.ctl" Type="VI" URL="../Control Scripting/Control Population Settings.ctl"/>
+		<Item Name="Control Style.ctl" Type="VI" URL="../Control Scripting/Control Style.ctl"/>
 		<Item Name="Control Type.ctl" Type="VI" URL="../Control Scripting/Control Type.ctl"/>
 		<Item Name="Create Control.vi" Type="VI" URL="../Control Scripting/Create Control.vi"/>
 	</Item>
 	<Item Name="Data Manipulation" Type="Folder">
 		<Item Name="Delete" Type="Folder">
-			<Item Name="Delete Element at Index.vi" Type="VI" URL="../Cluster Manipulation/Delete Element at Index.vi"/>
-			<Item Name="Delete First Element.vi" Type="VI" URL="../Cluster Manipulation/Delete First Element.vi"/>
-			<Item Name="Delete Last Element.vi" Type="VI" URL="../Cluster Manipulation/Delete Last Element.vi"/>
+			<Item Name="Delete Element at Index.vi" Type="VI" URL="../Data Manipulation/Delete Element at Index.vi"/>
+			<Item Name="Delete First Element.vi" Type="VI" URL="../Data Manipulation/Delete First Element.vi"/>
+			<Item Name="Delete Last Element.vi" Type="VI" URL="../Data Manipulation/Delete Last Element.vi"/>
 		</Item>
 		<Item Name="Get and Set All" Type="Folder">
-			<Item Name="Get All Names and Values.vi" Type="VI" URL="../Cluster Manipulation/Get All Names and Values.vi"/>
-			<Item Name="Set All Names and Values.vi" Type="VI" URL="../Cluster Manipulation/Set All Names and Values.vi"/>
+			<Item Name="Get All Names and Values.vi" Type="VI" URL="../Data Manipulation/Get All Names and Values.vi"/>
+			<Item Name="Set All Names and Values.vi" Type="VI" URL="../Data Manipulation/Set All Names and Values.vi"/>
 		</Item>
 		<Item Name="Insert" Type="Folder">
-			<Item Name="Insert Element at End.vi" Type="VI" URL="../Cluster Manipulation/Insert Element at End.vi"/>
-			<Item Name="Insert Element at Index.vi" Type="VI" URL="../Cluster Manipulation/Insert Element at Index.vi"/>
-			<Item Name="Insert Element at Start.vi" Type="VI" URL="../Cluster Manipulation/Insert Element at Start.vi"/>
+			<Item Name="Insert Element at End.vi" Type="VI" URL="../Data Manipulation/Insert Element at End.vi"/>
+			<Item Name="Insert Element at Index.vi" Type="VI" URL="../Data Manipulation/Insert Element at Index.vi"/>
+			<Item Name="Insert Element at Start.vi" Type="VI" URL="../Data Manipulation/Insert Element at Start.vi"/>
 		</Item>
-		<Item Name="Get Empty Cluster.vi" Type="VI" URL="../Cluster Manipulation/Get Empty Cluster.vi"/>
-		<Item Name="Set Item Label.vi" Type="VI" URL="../Cluster Manipulation/Set Item Label.vi"/>
+		<Item Name="Get Empty Cluster.vi" Type="VI" URL="../Data Manipulation/Get Empty Cluster.vi"/>
+		<Item Name="Set Item Label.vi" Type="VI" URL="../Data Manipulation/Set Item Label.vi"/>
 	</Item>
 	<Item Name="JSON" Type="Folder">
 		<Item Name="JSON Private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Flatten" Type="Folder">
 				<Item Name="Pretty Print" Type="Folder">
-					<Item Name="Generate Tabs.vi" Type="VI" URL="../Generate Tabs.vi"/>
-					<Item Name="To Pretty String (Array).vi" Type="VI" URL="../To Pretty String (Array).vi"/>
-					<Item Name="To Pretty String (Boolean).vi" Type="VI" URL="../To Pretty String (Boolean).vi"/>
-					<Item Name="To Pretty String (Null).vi" Type="VI" URL="../To Pretty String (Null).vi"/>
-					<Item Name="To Pretty String (Numeric).vi" Type="VI" URL="../To Pretty String (Numeric).vi"/>
-					<Item Name="To Pretty String (Object).vi" Type="VI" URL="../To Pretty String (Object).vi"/>
-					<Item Name="To Pretty String (String).vi" Type="VI" URL="../To Pretty String (String).vi"/>
+					<Item Name="Generate Tabs.vi" Type="VI" URL="../JSON/Generate Tabs.vi"/>
+					<Item Name="To Pretty String (Array).vi" Type="VI" URL="../JSON/To Pretty String (Array).vi"/>
+					<Item Name="To Pretty String (Boolean).vi" Type="VI" URL="../JSON/To Pretty String (Boolean).vi"/>
+					<Item Name="To Pretty String (Null).vi" Type="VI" URL="../JSON/To Pretty String (Null).vi"/>
+					<Item Name="To Pretty String (Numeric).vi" Type="VI" URL="../JSON/To Pretty String (Numeric).vi"/>
+					<Item Name="To Pretty String (Object).vi" Type="VI" URL="../JSON/To Pretty String (Object).vi"/>
+					<Item Name="To Pretty String (String).vi" Type="VI" URL="../JSON/To Pretty String (String).vi"/>
 				</Item>
 				<Item Name="Standard" Type="Folder">
-					<Item Name="Array To List.vi" Type="VI" URL="../Array To List.vi"/>
-					<Item Name="To String (Array).vi" Type="VI" URL="../To String (Array).vi"/>
-					<Item Name="To String (Boolean).vi" Type="VI" URL="../To String (Boolean).vi"/>
-					<Item Name="To String (Null).vi" Type="VI" URL="../To String (Null).vi"/>
-					<Item Name="To String (Numeric).vi" Type="VI" URL="../To String (Numeric).vi"/>
-					<Item Name="To String (Object).vi" Type="VI" URL="../To String (Object).vi"/>
-					<Item Name="To String (String).vi" Type="VI" URL="../To String (String).vi"/>
+					<Item Name="Array To List.vi" Type="VI" URL="../JSON/Array To List.vi"/>
+					<Item Name="To String (Array).vi" Type="VI" URL="../JSON/To String (Array).vi"/>
+					<Item Name="To String (Boolean).vi" Type="VI" URL="../JSON/To String (Boolean).vi"/>
+					<Item Name="To String (Null).vi" Type="VI" URL="../JSON/To String (Null).vi"/>
+					<Item Name="To String (Numeric).vi" Type="VI" URL="../JSON/To String (Numeric).vi"/>
+					<Item Name="To String (Object).vi" Type="VI" URL="../JSON/To String (Object).vi"/>
+					<Item Name="To String (String).vi" Type="VI" URL="../JSON/To String (String).vi"/>
 				</Item>
-				<Item Name="Flatten Variant to JSON Helper.vi" Type="VI" URL="../Flatten Variant to JSON Helper.vi"/>
+				<Item Name="Flatten Variant to JSON Helper.vi" Type="VI" URL="../JSON/Flatten Variant to JSON Helper.vi"/>
 			</Item>
 			<Item Name="SubVIs" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="Errors.ctl" Type="VI" URL="../Errors.ctl"/>
-				<Item Name="Error.vi" Type="VI" URL="../Error.vi"/>
-				<Item Name="Escape JSON String.vi" Type="VI" URL="../Escape JSON String.vi"/>
-				<Item Name="To File (Path).vi" Type="VI" URL="../To File (Path).vi"/>
-				<Item Name="To File (Ref).vi" Type="VI" URL="../To File (Ref).vi"/>
+				<Item Name="Errors.ctl" Type="VI" URL="../JSON/Errors.ctl"/>
+				<Item Name="Error.vi" Type="VI" URL="../JSON/Error.vi"/>
+				<Item Name="Escape JSON String.vi" Type="VI" URL="../JSON/Escape JSON String.vi"/>
+				<Item Name="To File (Path).vi" Type="VI" URL="../JSON/To File (Path).vi"/>
+				<Item Name="To File (Ref).vi" Type="VI" URL="../JSON/To File (Ref).vi"/>
 			</Item>
 			<Item Name="Unflatten" Type="Folder">
-				<Item Name="Eat Whitespace.vi" Type="VI" URL="../Eat Whitespace.vi"/>
-				<Item Name="LookAhead.vi" Type="VI" URL="../LookAhead.vi"/>
-				<Item Name="NextToken.vi" Type="VI" URL="../NextToken.vi"/>
-				<Item Name="Parse Array.vi" Type="VI" URL="../Parse Array.vi"/>
-				<Item Name="Parse Numeric.vi" Type="VI" URL="../Parse Numeric.vi"/>
-				<Item Name="Parse Object.vi" Type="VI" URL="../Parse Object.vi"/>
-				<Item Name="Parse String.vi" Type="VI" URL="../Parse String.vi"/>
-				<Item Name="Parse Value.vi" Type="VI" URL="../Parse Value.vi"/>
-				<Item Name="Token Type.ctl" Type="VI" URL="../Token Type.ctl"/>
+				<Item Name="Eat Whitespace.vi" Type="VI" URL="../JSON/Eat Whitespace.vi"/>
+				<Item Name="LookAhead.vi" Type="VI" URL="../JSON/LookAhead.vi"/>
+				<Item Name="NextToken.vi" Type="VI" URL="../JSON/NextToken.vi"/>
+				<Item Name="Parse Array.vi" Type="VI" URL="../JSON/Parse Array.vi"/>
+				<Item Name="Parse Numeric.vi" Type="VI" URL="../JSON/Parse Numeric.vi"/>
+				<Item Name="Parse Object.vi" Type="VI" URL="../JSON/Parse Object.vi"/>
+				<Item Name="Parse String.vi" Type="VI" URL="../JSON/Parse String.vi"/>
+				<Item Name="Parse Value.vi" Type="VI" URL="../JSON/Parse Value.vi"/>
+				<Item Name="Token Type.ctl" Type="VI" URL="../JSON/Token Type.ctl"/>
 			</Item>
 		</Item>
-		<Item Name="JSON String to Variant.vi" Type="VI" URL="../JSON String to Variant.vi"/>
-		<Item Name="JSON Type.ctl" Type="VI" URL="../JSON Type.ctl"/>
-		<Item Name="Load Variant from JSON File.vi" Type="VI" URL="../Load Variant from JSON File.vi"/>
-		<Item Name="Read JSON Type.vi" Type="VI" URL="../Read JSON Type.vi"/>
-		<Item Name="Save Variant to JSON File.vi" Type="VI" URL="../Save Variant to JSON File.vi"/>
-		<Item Name="Variant to JSON String.vi" Type="VI" URL="../Variant to JSON String.vi"/>
+		<Item Name="JSON String to Variant.vi" Type="VI" URL="../JSON/JSON String to Variant.vi"/>
+		<Item Name="JSON Type.ctl" Type="VI" URL="../JSON/JSON Type.ctl"/>
+		<Item Name="Load Variant from JSON File.vi" Type="VI" URL="../JSON/Load Variant from JSON File.vi"/>
+		<Item Name="Read JSON Type.vi" Type="VI" URL="../JSON/Read JSON Type.vi"/>
+		<Item Name="Save Variant to JSON File.vi" Type="VI" URL="../JSON/Save Variant to JSON File.vi"/>
+		<Item Name="Variant to JSON String.vi" Type="VI" URL="../JSON/Variant to JSON String.vi"/>
 	</Item>
-	<Item Name="check if all elements are the same type.vi" Type="VI" URL="../Control Scripting/check if all elements are the same type.vi"/>
 </Library>
