@@ -15,9 +15,11 @@
 			<Item Name="Create Control Helper.vi" Type="VI" URL="../Control Scripting/Create Control Helper.vi"/>
 			<Item Name="Check Elements are Same Type.vi" Type="VI" URL="../Control Scripting/Check Elements are Same Type.vi"/>
 		</Item>
-		<Item Name="Control Population Settings.ctl" Type="VI" URL="../Control Scripting/Control Population Settings.ctl"/>
-		<Item Name="Control Style.ctl" Type="VI" URL="../Control Scripting/Control Style.ctl"/>
-		<Item Name="Control Type.ctl" Type="VI" URL="../Control Scripting/Control Type.ctl"/>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Control Population Settings.ctl" Type="VI" URL="../Control Scripting/Control Population Settings.ctl"/>
+			<Item Name="Control Style.ctl" Type="VI" URL="../Control Scripting/Control Style.ctl"/>
+			<Item Name="Control Type.ctl" Type="VI" URL="../Control Scripting/Control Type.ctl"/>
+		</Item>
 		<Item Name="Create Control.vi" Type="VI" URL="../Control Scripting/Create Control.vi"/>
 	</Item>
 	<Item Name="Data Manipulation" Type="Folder">
@@ -38,7 +40,10 @@
 		<Item Name="Get Empty Cluster.vi" Type="VI" URL="../Data Manipulation/Get Empty Cluster.vi"/>
 		<Item Name="Set Item Label.vi" Type="VI" URL="../Data Manipulation/Set Item Label.vi"/>
 	</Item>
-	<Item Name="JSON" Type="Folder">
+	<Item Name="JSON API" Type="Folder">
+		<Item Name="Controls" Type="Folder">
+			<Item Name="JSON Type.ctl" Type="VI" URL="../JSON/JSON Type.ctl"/>
+		</Item>
 		<Item Name="JSON Private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Flatten" Type="Folder">
@@ -83,7 +88,6 @@
 			</Item>
 		</Item>
 		<Item Name="JSON String to Variant.vi" Type="VI" URL="../JSON/JSON String to Variant.vi"/>
-		<Item Name="JSON Type.ctl" Type="VI" URL="../JSON/JSON Type.ctl"/>
 		<Item Name="Load Variant from JSON File.vi" Type="VI" URL="../JSON/Load Variant from JSON File.vi"/>
 		<Item Name="Read JSON Type.vi" Type="VI" URL="../JSON/Read JSON Type.vi"/>
 		<Item Name="Save Variant to JSON File.vi" Type="VI" URL="../JSON/Save Variant to JSON File.vi"/>
