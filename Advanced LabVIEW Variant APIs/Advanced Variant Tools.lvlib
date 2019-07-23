@@ -37,6 +37,7 @@
 			<Item Name="Insert Element at Index.vi" Type="VI" URL="../Data Manipulation/Insert Element at Index.vi"/>
 			<Item Name="Insert Element at Start.vi" Type="VI" URL="../Data Manipulation/Insert Element at Start.vi"/>
 		</Item>
+		<Item Name="Find Element.vi" Type="VI" URL="../Data Manipulation/Find Element.vi"/>
 		<Item Name="Get Empty Cluster.vi" Type="VI" URL="../Data Manipulation/Get Empty Cluster.vi"/>
 		<Item Name="Set Item Label.vi" Type="VI" URL="../Data Manipulation/Set Item Label.vi"/>
 	</Item>
