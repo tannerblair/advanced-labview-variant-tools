@@ -12,8 +12,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Advanced Variant Tools.lvlib" Type="Library" URL="../../../Advanced LabVIEW Variant APIs/Advanced Variant Tools.lvlib"/>
 		<Item Name="JSON Editor.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON Editor.vi"/>
+		<Item Name="Replace Control.vi" Type="VI" URL="../../../../../Users/Tanner Blair/Desktop/Replace Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>

@@ -12,8 +12,8 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Set Value Options.vi" Type="VI" URL="../Control Scripting/Set Value Options.vi"/>
-			<Item Name="Create Control Helper.vi" Type="VI" URL="../Control Scripting/Create Control Helper.vi"/>
 			<Item Name="Check Elements are Same Type.vi" Type="VI" URL="../Control Scripting/Check Elements are Same Type.vi"/>
+			<Item Name="Create Control Helper.vi" Type="VI" URL="../Control Scripting/Create Control Helper.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Control Population Settings.ctl" Type="VI" URL="../Control Scripting/Control Population Settings.ctl"/>
@@ -21,6 +21,7 @@
 			<Item Name="Control Type.ctl" Type="VI" URL="../Control Scripting/Control Type.ctl"/>
 		</Item>
 		<Item Name="Create Control.vi" Type="VI" URL="../Control Scripting/Create Control.vi"/>
+		<Item Name="Place Control on VI.vi" Type="VI" URL="../Control Scripting/Place Control on VI.vi"/>
 	</Item>
 	<Item Name="Data Manipulation" Type="Folder">
 		<Item Name="Delete" Type="Folder">
