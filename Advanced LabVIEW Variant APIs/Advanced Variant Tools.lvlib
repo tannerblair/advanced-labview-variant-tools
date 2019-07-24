@@ -40,6 +40,7 @@
 		</Item>
 		<Item Name="Find Element.vi" Type="VI" URL="../Data Manipulation/Find Element.vi"/>
 		<Item Name="Get Empty Cluster.vi" Type="VI" URL="../Data Manipulation/Get Empty Cluster.vi"/>
+		<Item Name="Get Value at Path.vi" Type="VI" URL="../Get Value at Path.vi"/>
 		<Item Name="Set Item Label.vi" Type="VI" URL="../Data Manipulation/Set Item Label.vi"/>
 	</Item>
 	<Item Name="JSON API" Type="Folder">
@@ -95,4 +96,5 @@
 		<Item Name="Save Variant to JSON File.vi" Type="VI" URL="../JSON/Save Variant to JSON File.vi"/>
 		<Item Name="Variant to JSON String.vi" Type="VI" URL="../JSON/Variant to JSON String.vi"/>
 	</Item>
+	<Item Name="Set Value at Path.vi" Type="VI" URL="../Set Value at Path.vi"/>
 </Library>
