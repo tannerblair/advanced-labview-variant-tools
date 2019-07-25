@@ -38,9 +38,13 @@
 			<Item Name="Insert Element at Index.vi" Type="VI" URL="../Data Manipulation/Insert Element at Index.vi"/>
 			<Item Name="Insert Element at Start.vi" Type="VI" URL="../Data Manipulation/Insert Element at Start.vi"/>
 		</Item>
+		<Item Name="Pointer API" Type="Folder">
+			<Item Name="Get Value at Path.vi" Type="VI" URL="../Get Value at Path.vi"/>
+			<Item Name="Get Value with Default.vim" Type="VI" URL="../Get Value with Default.vim"/>
+			<Item Name="Set Value at Path.vi" Type="VI" URL="../Set Value at Path.vi"/>
+		</Item>
 		<Item Name="Find Element.vi" Type="VI" URL="../Data Manipulation/Find Element.vi"/>
 		<Item Name="Get Empty Cluster.vi" Type="VI" URL="../Data Manipulation/Get Empty Cluster.vi"/>
-		<Item Name="Get Value at Path.vi" Type="VI" URL="../Get Value at Path.vi"/>
 		<Item Name="Set Item Label.vi" Type="VI" URL="../Data Manipulation/Set Item Label.vi"/>
 	</Item>
 	<Item Name="JSON API" Type="Folder">
@@ -96,5 +100,4 @@
 		<Item Name="Save Variant to JSON File.vi" Type="VI" URL="../JSON/Save Variant to JSON File.vi"/>
 		<Item Name="Variant to JSON String.vi" Type="VI" URL="../JSON/Variant to JSON String.vi"/>
 	</Item>
-	<Item Name="Set Value at Path.vi" Type="VI" URL="../Set Value at Path.vi"/>
 </Library>
