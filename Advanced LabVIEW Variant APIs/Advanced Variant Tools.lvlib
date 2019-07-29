@@ -61,8 +61,12 @@
 			<Item Name="Path String to Path Array.vi" Type="VI" URL="../Data Manipulation/Path String to Path Array.vi">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
+			<Item Name="Set Name at Path Array.vi" Type="VI" URL="../Set Name at Path Array.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
 		</Item>
 		<Item Name="Find Element.vi" Type="VI" URL="../Data Manipulation/Find Element.vi"/>
+		<Item Name="Get All Paths.vi" Type="VI" URL="../Data Manipulation/Path API/Get All Paths.vi"/>
 		<Item Name="Get Empty Cluster.vi" Type="VI" URL="../Data Manipulation/Get Empty Cluster.vi"/>
 		<Item Name="Set Item Label.vi" Type="VI" URL="../Data Manipulation/Set Item Label.vi"/>
 	</Item>
@@ -208,9 +212,6 @@
 			<Item Name="get unit string.vi" Type="VI" URL="../Variant Tree/variant to tree resources/get unit string.vi"/>
 		</Item>
 		<Item Name="Variant to Tree.vi" Type="VI" URL="../Variant Tree/Variant to Tree.vi"/>
-	</Item>
-	<Item Name="Get All Paths.vi" Type="VI" URL="../Data Manipulation/Path API/Get All Paths.vi"/>
-	<Item Name="Set Name at Path Array.vi" Type="VI" URL="../Set Name at Path Array.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Variant Tree.xctl" Type="XControl" URL="../Variant Tree.xctl"/>
 	</Item>
 </Library>
