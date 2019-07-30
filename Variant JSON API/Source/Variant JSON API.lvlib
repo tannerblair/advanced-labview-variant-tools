@@ -5,53 +5,54 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Controls" Type="Folder">
-		<Item Name="JSON Type.ctl" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/JSON Type.ctl"/>
+		<Item Name="JSON Type.ctl" Type="VI" URL="../JSON Type.ctl"/>
 	</Item>
 	<Item Name="JSON Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Flatten" Type="Folder">
 			<Item Name="Pretty Print" Type="Folder">
-				<Item Name="Generate Tabs.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Generate Tabs.vi"/>
-				<Item Name="To Pretty String (Array).vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/To Pretty String (Array).vi"/>
-				<Item Name="To Pretty String (Boolean).vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/To Pretty String (Boolean).vi"/>
-				<Item Name="To Pretty String (Null).vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/To Pretty String (Null).vi"/>
-				<Item Name="To Pretty String (Numeric).vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/To Pretty String (Numeric).vi"/>
-				<Item Name="To Pretty String (Object).vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/To Pretty String (Object).vi"/>
-				<Item Name="To Pretty String (String).vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/To Pretty String (String).vi"/>
+				<Item Name="Generate Tabs.vi" Type="VI" URL="../Generate Tabs.vi"/>
+				<Item Name="To Pretty String (Array).vi" Type="VI" URL="../To Pretty String (Array).vi"/>
+				<Item Name="To Pretty String (Boolean).vi" Type="VI" URL="../To Pretty String (Boolean).vi"/>
+				<Item Name="To Pretty String (Null).vi" Type="VI" URL="../To Pretty String (Null).vi"/>
+				<Item Name="To Pretty String (Numeric).vi" Type="VI" URL="../To Pretty String (Numeric).vi"/>
+				<Item Name="To Pretty String (Object).vi" Type="VI" URL="../To Pretty String (Object).vi"/>
+				<Item Name="To Pretty String (String).vi" Type="VI" URL="../To Pretty String (String).vi"/>
 			</Item>
 			<Item Name="Standard" Type="Folder">
-				<Item Name="Array To List.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Array To List.vi"/>
-				<Item Name="To String (Array).vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/To String (Array).vi"/>
-				<Item Name="To String (Boolean).vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/To String (Boolean).vi"/>
-				<Item Name="To String (Null).vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/To String (Null).vi"/>
-				<Item Name="To String (Numeric).vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/To String (Numeric).vi"/>
-				<Item Name="To String (Object).vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/To String (Object).vi"/>
-				<Item Name="To String (String).vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/To String (String).vi"/>
+				<Item Name="Array To List.vi" Type="VI" URL="../Array To List.vi"/>
+				<Item Name="To String (Array).vi" Type="VI" URL="../To String (Array).vi"/>
+				<Item Name="To String (Boolean).vi" Type="VI" URL="../To String (Boolean).vi"/>
+				<Item Name="To String (Null).vi" Type="VI" URL="../To String (Null).vi"/>
+				<Item Name="To String (Numeric).vi" Type="VI" URL="../To String (Numeric).vi"/>
+				<Item Name="To String (Object).vi" Type="VI" URL="../To String (Object).vi"/>
+				<Item Name="To String (String).vi" Type="VI" URL="../To String (String).vi"/>
 			</Item>
-			<Item Name="Flatten Variant to JSON Helper.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Flatten Variant to JSON Helper.vi"/>
+			<Item Name="Flatten Variant to JSON Helper.vi" Type="VI" URL="../Flatten Variant to JSON Helper.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Errors.ctl" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Errors.ctl"/>
-			<Item Name="Error.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Error.vi"/>
-			<Item Name="Escape JSON String.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Escape JSON String.vi"/>
-			<Item Name="To File (Path).vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/To File (Path).vi"/>
-			<Item Name="To File (Ref).vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/To File (Ref).vi"/>
+			<Item Name="Errors.ctl" Type="VI" URL="../Errors.ctl"/>
+			<Item Name="Error.vi" Type="VI" URL="../Error.vi"/>
+			<Item Name="Escape JSON String.vi" Type="VI" URL="../Escape JSON String.vi"/>
+			<Item Name="To File (Path).vi" Type="VI" URL="../To File (Path).vi"/>
+			<Item Name="To File (Ref).vi" Type="VI" URL="../To File (Ref).vi"/>
 		</Item>
 		<Item Name="Unflatten" Type="Folder">
-			<Item Name="Eat Whitespace.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Eat Whitespace.vi"/>
-			<Item Name="LookAhead.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/LookAhead.vi"/>
-			<Item Name="NextToken.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/NextToken.vi"/>
-			<Item Name="Parse Array.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Parse Array.vi"/>
-			<Item Name="Parse Numeric.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Parse Numeric.vi"/>
-			<Item Name="Parse Object.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Parse Object.vi"/>
-			<Item Name="Parse String.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Parse String.vi"/>
-			<Item Name="Parse Value.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Parse Value.vi"/>
-			<Item Name="Token Type.ctl" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Token Type.ctl"/>
+			<Item Name="Eat Whitespace.vi" Type="VI" URL="../Eat Whitespace.vi"/>
+			<Item Name="LookAhead.vi" Type="VI" URL="../LookAhead.vi"/>
+			<Item Name="NextToken.vi" Type="VI" URL="../NextToken.vi"/>
+			<Item Name="Parse Array.vi" Type="VI" URL="../Parse Array.vi"/>
+			<Item Name="Parse Numeric.vi" Type="VI" URL="../Parse Numeric.vi"/>
+			<Item Name="Parse Object.vi" Type="VI" URL="../Parse Object.vi"/>
+			<Item Name="Parse String.vi" Type="VI" URL="../Parse String.vi"/>
+			<Item Name="Parse Value.vi" Type="VI" URL="../Parse Value.vi"/>
+			<Item Name="Token Type.ctl" Type="VI" URL="../Token Type.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="JSON String to Variant.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/JSON String to Variant.vi"/>
-	<Item Name="Load Variant from JSON File.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Load Variant from JSON File.vi"/>
-	<Item Name="Read JSON Type.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Read JSON Type.vi"/>
-	<Item Name="Save Variant to JSON File.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Save Variant to JSON File.vi"/>
-	<Item Name="Variant to JSON String.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/JSON/Variant to JSON String.vi"/>
+	<Item Name="JSON String to Variant.vi" Type="VI" URL="../JSON String to Variant.vi"/>
+	<Item Name="Load Variant from JSON File.vi" Type="VI" URL="../Load Variant from JSON File.vi"/>
+	<Item Name="Read JSON Type.vi" Type="VI" URL="../Read JSON Type.vi"/>
+	<Item Name="Save Variant to JSON File.vi" Type="VI" URL="../Save Variant to JSON File.vi"/>
+	<Item Name="Variant to JSON String.vi" Type="VI" URL="../Variant to JSON String.vi"/>
 </Library>
