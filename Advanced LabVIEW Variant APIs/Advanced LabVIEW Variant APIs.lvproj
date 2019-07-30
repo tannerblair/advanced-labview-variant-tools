@@ -65,8 +65,8 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="Variant Data Manipulation.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Variant Data Manipulation/Variant Data Manipulation.lvlib"/>
 			</Item>
-			<Item Name="Variant Data Manipulation.lvlib" Type="Library" URL="../../Variant Data Manipulation/Source/Variant Data Manipulation.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="JSON Support for LabVIEW" Type="Source Distribution">
