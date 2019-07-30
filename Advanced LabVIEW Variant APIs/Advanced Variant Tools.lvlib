@@ -12,7 +12,6 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Set Value Options.vi" Type="VI" URL="../Control Scripting/Set Value Options.vi"/>
-			<Item Name="Check Elements are Same Type.vi" Type="VI" URL="../Control Scripting/Check Elements are Same Type.vi"/>
 			<Item Name="Create Control Helper.vi" Type="VI" URL="../Control Scripting/Create Control Helper.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
@@ -22,53 +21,6 @@
 		</Item>
 		<Item Name="Create Control.vi" Type="VI" URL="../Control Scripting/Create Control.vi"/>
 		<Item Name="Place Control on VI.vi" Type="VI" URL="../Control Scripting/Place Control on VI.vi"/>
-	</Item>
-	<Item Name="Data Manipulation" Type="Folder">
-		<Item Name="Delete" Type="Folder">
-			<Item Name="Delete Element at Index.vi" Type="VI" URL="../Data Manipulation/Delete Element at Index.vi"/>
-			<Item Name="Delete First Element.vi" Type="VI" URL="../Data Manipulation/Delete First Element.vi"/>
-			<Item Name="Delete Last Element.vi" Type="VI" URL="../Data Manipulation/Delete Last Element.vi"/>
-		</Item>
-		<Item Name="Get and Set All" Type="Folder">
-			<Item Name="Get All Names and Values.vi" Type="VI" URL="../Data Manipulation/Get All Names and Values.vi"/>
-			<Item Name="Set All Names and Values.vi" Type="VI" URL="../Data Manipulation/Set All Names and Values.vi"/>
-		</Item>
-		<Item Name="Insert" Type="Folder">
-			<Item Name="Insert Element at End.vi" Type="VI" URL="../Data Manipulation/Insert Element at End.vi"/>
-			<Item Name="Insert Element at Index.vi" Type="VI" URL="../Data Manipulation/Insert Element at Index.vi"/>
-			<Item Name="Insert Element at Start.vi" Type="VI" URL="../Data Manipulation/Insert Element at Start.vi"/>
-		</Item>
-		<Item Name="Path API" Type="Folder">
-			<Item Name="Getters" Type="Folder">
-				<Item Name="Get Value at Path Array with Default.vim" Type="VI" URL="../Get Value at Path Array with Default.vim"/>
-				<Item Name="Get Value at Path Array.vi" Type="VI" URL="../Get Value at Path Array.vi">
-					<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-				</Item>
-				<Item Name="Get Value at Path with Default.vim" Type="VI" URL="../Get Value at Path with Default.vim"/>
-				<Item Name="Get Value at Path.vi" Type="VI" URL="../Get Value at Path.vi"/>
-			</Item>
-			<Item Name="Setters" Type="Folder">
-				<Item Name="Set Name at Path.vi" Type="VI" URL="../Set Name at Path.vi"/>
-				<Item Name="Set Value at Path Array.vi" Type="VI" URL="../Set Value at Path Array.vi">
-					<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-				</Item>
-				<Item Name="Set Value at Path.vi" Type="VI" URL="../Set Value at Path.vi"/>
-			</Item>
-			<Item Name="Get All Paths in Variant.vi" Type="VI" URL="../Get All Paths in Variant.vi"/>
-			<Item Name="Path Array to Path String.vi" Type="VI" URL="../Data Manipulation/Path Array to Path String.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Path String to Path Array.vi" Type="VI" URL="../Data Manipulation/Path String to Path Array.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="Set Name at Path Array.vi" Type="VI" URL="../Set Name at Path Array.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-		</Item>
-		<Item Name="Find Element.vi" Type="VI" URL="../Data Manipulation/Find Element.vi"/>
-		<Item Name="Get All Paths.vi" Type="VI" URL="../Data Manipulation/Path API/Get All Paths.vi"/>
-		<Item Name="Get Empty Cluster.vi" Type="VI" URL="../Data Manipulation/Get Empty Cluster.vi"/>
-		<Item Name="Set Item Label.vi" Type="VI" URL="../Data Manipulation/Set Item Label.vi"/>
 	</Item>
 	<Item Name="JSON API" Type="Folder">
 		<Item Name="Controls" Type="Folder">

@@ -17,6 +17,7 @@
 	<Item Name="Facade.vi" Type="Ability VI" URL="../Variant Tree/Facade.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
 	</Item>
+	<Item Name="From JSON String.vi" Type="Method VI" URL="../Variant Tree/From JSON String.vi"/>
 	<Item Name="Init.vi" Type="Ability VI" URL="../Variant Tree/Init.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
 	</Item>
