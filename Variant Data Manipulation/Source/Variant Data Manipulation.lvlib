@@ -12,42 +12,40 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Get All Paths Helper.vi" Type="VI" URL="../Path API/Get All Paths Helper.vi"/>
 	</Item>
-	<Item Name="Get and Set All" Type="Folder">
-		<Item Name="Get All Names and Values.vi" Type="VI" URL="../Get All Names and Values.vi"/>
-		<Item Name="Set All Names and Values.vi" Type="VI" URL="../Set All Names and Values.vi"/>
+	<Item Name="Instance VIs" Type="Folder">
+		<Item Name="Delete" Type="Folder">
+			<Item Name="Delete Element at Index.vi" Type="VI" URL="../Delete Element at Index.vi"/>
+			<Item Name="Delete First Element.vi" Type="VI" URL="../Delete First Element.vi"/>
+			<Item Name="Delete Last Element.vi" Type="VI" URL="../Delete Last Element.vi"/>
+		</Item>
+		<Item Name="Insert" Type="Folder">
+			<Item Name="Insert Element at End.vi" Type="VI" URL="../Insert Element at End.vi"/>
+			<Item Name="Insert Element at Index.vi" Type="VI" URL="../Insert Element at Index.vi"/>
+			<Item Name="Insert Element at Start.vi" Type="VI" URL="../Insert Element at Start.vi"/>
+		</Item>
+		<Item Name="Write at Path" Type="Folder">
+			<Item Name="Write Value at Path(String).vi" Type="VI" URL="../Path API/Write Value at Path(String).vi"/>
+			<Item Name="Write Label at Path(Array).vi" Type="VI" URL="../Path API/Write Label at Path(Array).vi"/>
+			<Item Name="Write Label at Path(String).vi" Type="VI" URL="../Path API/Write Label at Path(String).vi"/>
+			<Item Name="Write Value at Path(Array).vi" Type="VI" URL="../Path API/Write Value at Path(Array).vi"/>
+		</Item>
+		<Item Name="Read at Path" Type="Folder">
+			<Item Name="Read Value at Path(Array).vi" Type="VI" URL="../Path API/Read Value at Path(Array).vi"/>
+			<Item Name="Read Value at Path(String).vi" Type="VI" URL="../Path API/Read Value at Path(String).vi"/>
+		</Item>
 	</Item>
-	<Item Name="Delete" Type="Folder">
-		<Item Name="Delete Element at Index.vi" Type="VI" URL="../Delete Element at Index.vi"/>
-		<Item Name="Delete First Element.vi" Type="VI" URL="../Delete First Element.vi"/>
-		<Item Name="Delete Last Element.vi" Type="VI" URL="../Delete Last Element.vi"/>
-	</Item>
-	<Item Name="Insert" Type="Folder">
-		<Item Name="Insert Element at End.vi" Type="VI" URL="../Insert Element at End.vi"/>
-		<Item Name="Insert Element at Index.vi" Type="VI" URL="../Insert Element at Index.vi"/>
-		<Item Name="Insert Element at Start.vi" Type="VI" URL="../Insert Element at Start.vi"/>
-	</Item>
-	<Item Name="Set Path" Type="Folder">
-		<Item Name="Set Name at Path Array.vi" Type="VI" URL="../Path API/Set Name at Path Array.vi"/>
-		<Item Name="Set Name at Path.vi" Type="VI" URL="../Path API/Set Name at Path.vi"/>
-		<Item Name="Set Value at Path Array.vi" Type="VI" URL="../Path API/Set Value at Path Array.vi"/>
-		<Item Name="Set Value at Path.vi" Type="VI" URL="../Path API/Set Value at Path.vi"/>
-	</Item>
-	<Item Name="Get Path" Type="Folder">
-		<Item Name="Get Value at Path Array with Default.vim" Type="VI" URL="../Path API/Get Value at Path Array with Default.vim"/>
-		<Item Name="Get Value at Path Array.vi" Type="VI" URL="../Path API/Get Value at Path Array.vi"/>
-		<Item Name="Get Value at Path with Default.vim" Type="VI" URL="../Path API/Get Value at Path with Default.vim"/>
-		<Item Name="Get Value at Path.vi" Type="VI" URL="../Path API/Get Value at Path.vi"/>
-	</Item>
-	<Item Name="Path API" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-	</Item>
-	<Item Name="Path Conversion" Type="Folder">
-		<Item Name="Path Array to Path String.vi" Type="VI" URL="../Path API/Path Array to Path String.vi"/>
-		<Item Name="Path String to Path Array.vi" Type="VI" URL="../Path API/Path String to Path Array.vi"/>
-	</Item>
+	<Item Name="Get All Names and Values.vi" Type="VI" URL="../Get All Names and Values.vi"/>
+	<Item Name="Path Array to Path String.vi" Type="VI" URL="../Path API/Path Array to Path String.vi"/>
+	<Item Name="Path String to Path Array.vi" Type="VI" URL="../Path API/Path String to Path Array.vi"/>
+	<Item Name="Read Value at Path.vi" Type="VI" URL="../Path API/Read Value at Path.vi"/>
+	<Item Name="Insert Element.vi" Type="VI" URL="../Insert Element.vi"/>
+	<Item Name="Delete Element.vi" Type="VI" URL="../Delete Element.vi"/>
+	<Item Name="Set All Names and Values.vi" Type="VI" URL="../Set All Names and Values.vi"/>
 	<Item Name="Find Element.vi" Type="VI" URL="../Find Element.vi"/>
 	<Item Name="Get All Paths in Variant.vi" Type="VI" URL="../Path API/Get All Paths in Variant.vi"/>
 	<Item Name="Set Item Label.vi" Type="VI" URL="../Set Item Label.vi"/>
 	<Item Name="Get Empty Cluster.vi" Type="VI" URL="../Get Empty Cluster.vi"/>
-	<Item Name="Assert Elements are Homogeneous.vi" Type="VI" URL="../../../Advanced LabVIEW Variant APIs/Control Scripting/Assert Elements are Homogeneous.vi"/>
+	<Item Name="Assert Elements are Homogeneous.vi" Type="VI" URL="../Assert Elements are Homogeneous.vi"/>
+	<Item Name="Write Value at Path.vi" Type="VI" URL="../Path API/Write Value at Path.vi"/>
+	<Item Name="Write Label at Path.vi" Type="VI" URL="../Path API/Write Label at Path.vi"/>
 </Library>
