@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dynamic Cluster Test.lvclass" Type="LVClass" URL="../Tests/Dynamic Cluster Test/Dynamic Cluster Test.lvclass"/>
+		<Item Name="Variant Data Manipulation Tests.lvclass" Type="LVClass" URL="../Tests/Variant Data Manipulation Tests.lvclass"/>
 		<Item Name="Variant Data Manipulation.lvlib" Type="Library" URL="../Source/Variant Data Manipulation.lvlib"/>
 		<Item Name="Variant Data Manipulation.vipb" Type="Document" URL="../Variant Data Manipulation.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies">

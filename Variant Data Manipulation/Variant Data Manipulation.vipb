@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-07-29 23:39:45" Modified_Date="2019-07-30 11:43:31" Creator="Tanner Blair" Comments="" ID="ff19936aa2f8de6f40308f858e02449a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-07-29 23:39:45" Modified_Date="2019-07-30 23:05:08" Creator="Tanner Blair" Comments="" ID="9fc4e2c6f6ca434028de5bab0487eed7">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_Variant_Data_Manipulation</Package_File_Name>
-    <Library_Version>2.0.0.5</Library_Version>
+    <Library_Version>2.0.1.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\Builds\Advanced Variant Tools</Library_Output_Folder>
@@ -392,7 +392,7 @@
         <Path>Source\Assert Elements are Homogeneous.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E3E3CB974152E30191845BC72F48BE59</GUID>
+      <GUID>FB7DB822FE906747A6C526AFA4C46334</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
