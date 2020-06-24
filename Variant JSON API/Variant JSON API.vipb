@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-07-30 00:26:07" Modified_Date="2019-07-30 11:48:34" Creator="User" Comments="" ID="1cf3785e3d7564e704fccefd0353bd5f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-07-30 00:26:07" Modified_Date="2020-06-24 13:29:44" Creator="User" Comments="" ID="c962b1271c39390209a77d3f4981f5fc">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_Variant_JSON_API</Package_File_Name>
-    <Library_Version>2.0.0.4</Library_Version>
+    <Library_Version>2.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\Builds\Advanced Variant Tools</Library_Output_Folder>
@@ -268,7 +268,7 @@
         <Path>Source\Read JSON Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D04F9BB0A2CE64A5FF8EFDA1B6313CC8</GUID>
+      <GUID>5BF5641E5E79CF5FF105B6E4453CBE12</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
